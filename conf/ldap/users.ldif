@@ -6,13 +6,22 @@ sn: IPS
 uid: 5151
 userpassword: {SSHA}f3q/7JM5KDENuvDOyyiw5tVwl0LilpUq
 
-dn: cn=L123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+dn: cn=123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top
 objectclass: inetOrgPerson
 cn: L123456
+sn: Gustavo Henrique
+uid: 5150
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
+dn: cn=D123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: D123456
 sn: Gustavo
 uid: 5152
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
 
 dn: cn=G123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top

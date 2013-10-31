@@ -10,8 +10,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
   $script = <<EOF
-#echo "Atualizando repositorios apt..."
-#sudo apt-get update
+echo "Atualizando repositorios apt..."
+sudo apt-get update
 
 echo "Instalando openjdk-6..."
 sudo apt-get install openjdk-6-jdk -q -y --fix-missing
@@ -29,7 +29,7 @@ EOF
     buildserver_config.vm.synced_folder "~/.m2", "/opt/ips/.m2"
     buildserver_config.vm.synced_folder "sync/apps", "/opt/ips/apps"
     buildserver_config.vm.synced_folder "conf", "/configuration"
-    buildserver_config.vm.synced_folder "sync/hudson-home-bradesco", "/opt/ips/config/build"
+    buildserver_config.vm.synced_folder "sync/hudson_home", "/opt/ips/config/build"
 
     buildserver_config.vm.provider :virtualbox do |vb|
       vb.customize ["modifyvm", :id, "--memory", "3000", "--ioapic", "on"]
@@ -91,8 +91,10 @@ if [ ! -e "/opt/ips/csvn" ]; then
 fi
 
 # Inicia servico no boot
-sudo ln -s /opt/ips/apps/ips-boot-start.sh /etc/init.d/build
+sudo cp /opt/ips/apps/ips-boot-start.sh /etc/init.d/build
+sudo chown root:root /etc/init.d/build
 sudo update-rc.d build defaults
+sudo update-rc.d build enable
 
 # Configura file descriptors e ip forwarding)
 sudo cp /configuration/sysctl.conf /etc/

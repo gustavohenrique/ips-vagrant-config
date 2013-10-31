@@ -3,6 +3,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: bsipsadmin
 sn: IPS
+displayName: IPS
 uid: 5151
 userpassword: {SSHA}f3q/7JM5KDENuvDOyyiw5tVwl0LilpUq
 
@@ -11,6 +12,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: L123456
 sn: Gustavo Henrique
+displayName: Gustavo Henrique
 uid: 5150
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
@@ -19,6 +21,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: D123456
 sn: Gustavo
+displayName: Gustavo
 uid: 5152
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
@@ -28,6 +31,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: G123456
 sn: Marco
+displayName: Marco
 uid: 5153
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
@@ -36,6 +40,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: Q123456
 sn: Raphael
+displayName: Raphael
 uid: 5154
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
@@ -44,6 +49,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: S123456
 sn: Tino
+displayName: Tino
 uid: 5155
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
@@ -51,7 +57,8 @@ dn: cn=S789012,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top
 objectclass: inetOrgPerson
 cn: S789012
-sn: rodrigo
+sn: Rodrigo
+displayName: Rodrigo
 uid: 5156
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 

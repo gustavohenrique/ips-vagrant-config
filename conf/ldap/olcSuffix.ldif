@@ -1,0 +1,3 @@
+dn: olcDatabase={1}hdb,cn=config
+replace: olcSuffix
+olcSuffix: dc=5800bseguros,dc=com,dc=br

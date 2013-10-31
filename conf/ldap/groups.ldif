@@ -1,0 +1,36 @@
+dn: cn=G-IC-Administradores,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-Administradores
+member: cn=bsipsadmin,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+
+dn: cn=G-IC-Desenvolvimento,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-Desenvolvimento
+member: cn=L123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+
+dn: cn=G-IC-Equipe_Qualidade,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-Equipe_Qualidade
+member: cn=Q123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+
+dn: cn=G-IC-Gestores,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-Gestores
+member: cn=G123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+
+dn: cn=G-IC-Suporte,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-Suporte
+member: cn=S123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+
+dn: cn=G-IC-SUPORTE-SELO_AMBIENTE,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: groupOfNames
+cn: G-IC-SUPORTE-SELO_AMBIENTE
+member: cn=S789012,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+

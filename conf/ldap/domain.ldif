@@ -1,0 +1,4 @@
+dn: dc=5800bseguros,dc=com,dc=br
+dc: 5800bseguros
+objectClass: top
+objectClass: domain

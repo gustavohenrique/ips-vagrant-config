@@ -1,0 +1,48 @@
+dn: cn=bsipsadmin,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: bsipsadmin
+sn: IPS
+uid: 5151
+userpassword: {SSHA}f3q/7JM5KDENuvDOyyiw5tVwl0LilpUq
+
+dn: cn=L123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: L123456
+sn: Gustavo
+uid: 5152
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
+dn: cn=G123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: G123456
+sn: Marco
+uid: 5153
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
+dn: cn=Q123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: Q123456
+sn: Raphael
+uid: 5154
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
+dn: cn=S123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: S123456
+sn: Tino
+uid: 5155
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+
+dn: cn=S789012,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectclass: top
+objectclass: inetOrgPerson
+cn: S789012
+sn: rodrigo
+uid: 5156
+userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
+

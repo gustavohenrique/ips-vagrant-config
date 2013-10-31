@@ -1,0 +1,14 @@
+dn: ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: organizationalUnit
+ou: Administrativos
+
+dn: ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: organizationalUnit
+ou: Grupos
+
+dn: ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+objectClass: top
+objectclass: organizationalUnit
+ou: Servicos

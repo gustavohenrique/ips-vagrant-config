@@ -1,4 +1,4 @@
-dn: cn=bsipsadmin,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+dn: cn=ips,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top
 objectclass: inetOrgPerson
 cn: ips

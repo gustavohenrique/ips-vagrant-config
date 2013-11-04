@@ -24,7 +24,7 @@ EOF
 
   config.vm.define :buildserver do |buildserver_config|
     buildserver_config.vm.hostname = "d5800sd120.hml.5800bseguros.com.br"
-    buildserver_config.vm.network :private_network, ip: "10.0.0.120"
+    buildserver_config.vm.network :private_network, ip: "172.168.0.120"
 
     buildserver_config.vm.synced_folder "~/.m2", "/opt/ips/.m2"
     buildserver_config.vm.synced_folder "sync/apps", "/opt/ips/apps"
@@ -111,7 +111,7 @@ EOF
 
   config.vm.define :ldap do |ldap_config|
     ldap_config.vm.hostname = "ldap-matriz.bradseg.com.br"
-    ldap_config.vm.network :private_network, ip: "10.0.0.100"
+    ldap_config.vm.network :private_network, ip: "172.168.0.100"
     ldap_config.vm.synced_folder "conf", "/configuration"
     ldap_config.ssh.forward_x11 = true
 

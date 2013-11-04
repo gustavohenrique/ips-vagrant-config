@@ -2,7 +2,7 @@ dn: cn=G-IC-Administradores,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,
 objectClass: top
 objectclass: groupOfNames
 cn: G-IC-Administradores
-member: cn=bsipsadmin,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
+member: cn=ips,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 member: cn=L123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 
 dn: cn=G-IC-Desenvolvimento,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br

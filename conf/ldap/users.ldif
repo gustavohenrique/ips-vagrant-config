@@ -1,11 +1,11 @@
 dn: cn=bsipsadmin,ou=Servicos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top
 objectclass: inetOrgPerson
-cn: bsipsadmin
+cn: ips
 sn: IPS
 displayName: IPS
 uid: 5151
-userpassword: {SSHA}f3q/7JM5KDENuvDOyyiw5tVwl0LilpUq
+userpassword: {SSHA}6TBy+4BBvhtDkGowK/gab23gZRlTaVn5
 
 dn: cn=123456,ou=Grupos,ou=Administrativos,dc=5800bseguros,dc=com,dc=br
 objectclass: top
@@ -49,7 +49,7 @@ objectclass: top
 objectclass: inetOrgPerson
 cn: S123456
 sn: Tino
-displayName: Tino
+displayName: Tino Frango
 uid: 5155
 userpassword: {SSHA}H1pcwyq8hCTNA/1OcLN2Mu6IMy2Luzi2
 
